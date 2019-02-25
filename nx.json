@@ -9,10 +9,28 @@
   },
   "projects": {
     "myapp": {
-      "tags": []
+      "tags": ["myapp"]
     },
     "myapp-e2e": {
       "tags": []
+    },
+    "mylib": {
+      "tags": []
+    },
+    "shared": {
+      "tags": ["shared"]
+    },
+    "myapp2": {
+      "tags": ["myapp2"]
+    },
+    "myapp2-e2e": {
+      "tags": []
+    },
+    "app1-lib": {
+      "tags": ["app:myapp"]
+    },
+    "app2-lib": {
+      "tags": ["app:myapp2"]
     }
   }
 }

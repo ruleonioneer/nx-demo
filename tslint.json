@@ -95,7 +95,10 @@
       {
         "allow": [],
         "depConstraints": [
-          { "sourceTag": "*", "onlyDependOnLibsWithTags": ["*"] }
+          { "sourceTag": "*", "onlyDependOnLibsWithTags": ["*"] },
+          { "sourceTag": "shared", "onlyDependOnLibsWithTags": ["shared"] }
+          { "sourceTag": "myapp", "onlyDependOnLibsWithTags": ["shared, app:myapp"] }
+          { "sourceTag": "myapp2", "onlyDependOnLibsWithTags": ["shared, app:myapp2"] }
         ]
       }
     ]

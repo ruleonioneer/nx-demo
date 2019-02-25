@@ -1,0 +1,20 @@
+<h3>Pipes and Functions</h3>
+
+<h5>Pipes</h5>
+
+<ul>
+    <li>Prefer pipes over functions when retrieving text for display purposes.</li>
+    <li>Pipes memoize, will increase performance</li>
+</ul>
+
+<h5>Component functions</h5>
+
+<ul>
+    <li>For pure functions in the component, we can use memo-decorator to memoize the function</li>
+</ul>
+
+<div>{{memoPipeText | memoPipe}}</div>
+<div>{{getMemoText()}}</div>
+<div>{{regularPipeText | regularPipe}}</div>
+<div>{{getRegularText()}}</div>
+<button (click)="change()">Update</button>
